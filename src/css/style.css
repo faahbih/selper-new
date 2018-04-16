@@ -32,6 +32,16 @@
 	font-size: 40px;
 }
 
+.lnr-map-marker{
+  color: #62b790;
+  font-size: 40px;
+}
+
+.lnr-keyboard{
+  color: #62b790;
+  font-size: 60px;
+}
+
 
 /* 
 =======
@@ -40,11 +50,11 @@ links
 */
 
 a:link { 
-	color:#62b790; text-decoration: none;
+	color:#026610;
 }
 	
 a:hover { 
-	color:#026634; text-decoration: underline;
+	color:#000; text-decoration: underline;
 }
 	
 a:visited { 
@@ -79,6 +89,20 @@ Título de destaque nas páginas
     position: relative;
     border-top: 2px solid #61D2B4;
     margin-top: 15px;
+}
+
+
+
+/* 
+==========
+highlights 
+==========
+*/
+
+
+mark{
+  background-color:  rgba(97, 210, 180, 0.3);
+
 }
 
 

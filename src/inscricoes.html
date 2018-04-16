@@ -31,17 +31,17 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="navbar-nav">
 							<li class="nav-item"> <!-- active -->
-								<a class="nav-link" href="#">Nossa Proposta<!-- <span class="sr-only">(current)</span> --></a>
+								<a class="nav-link" href="nossa-proposta.html">Nossa Proposta<!-- <span class="sr-only">(current)</span> --></a>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="cursos.html" id="navbarDropdownMenuLink" data-toggle="dropdown">Cursos</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 									<a class="dropdown-item" href="cursos">Cursos Disponíveis</a>
-									<a class="dropdown-item" href="#">Cursos Online</a> 
-									<a class="dropdown-item" href="#">Cursos na sua Instituição</a>
+									<!-- <a class="dropdown-item" href="#">Cursos Online</a> --> 
+									<a class="dropdown-item" href="curso-na-instituicao.html">Cursos na sua Instituição</a>
 									<div class="dropdown-divider"></div> 
 									<a class="dropdown-item" href="inscricoes.html">Inscrições</a>
-									<a class="dropdown-item" href="#">Local da Realização</a>
+									<a class="dropdown-item" href="local-de-realizacao.html">Local da Realização</a>
 									<a class="dropdown-item" href="#">Moodle</a>
 								</div>
 							</li>
@@ -82,7 +82,13 @@
 			</div>
 		</div>
 
-		<br><br>
+		<br><nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+				<li class="breadcrumb-item"><a href="cursos.html">Cursos</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Inscrições</li>
+			</ol>
+		</nav>
 
 
 		<div class="row">
@@ -96,12 +102,12 @@
 
 				<p class="lead">	
 
-					Antes de se inscrever, leia atentamente as Normas e Procedimentos<br>
+					Antes de se inscrever, leia atentamente as Normas e Procedimentos
 
 				</p>
 
 
-				<h3>Para se Inscrever</h3>
+				<h3>Para se inscrever</h3>
 
 				<p class="lead">
 					
@@ -110,12 +116,12 @@
 						<li>Inscreva-se em um curso por vez</li>
 						<li>As informações sobre o pagamento serão enviadas na mensagem de confirmação da inscrição</li>
 						<li>Após o depósito, envie uma cópia do comprovante para o email <a href="mailto:cursos@selperbrasil.org.br">cursos@selperbrasil.org.br</a> ou para o fax (12) 3208 6471</li>
-						<li>Identifique claramente o comprovante de depósito com o seu NOME, nome do CURSO e PERÍODO.</li>
+						<li>Identifique claramente o comprovante de depósito com o seu <mark>NOME</mark>, nome do <mark>CURSO</mark> e <mark>PERÍODO</mark>.</li>
 						<li>A confirmação do recebimento será enviada por e-mail</li>
 					</ul>
 				</p><br>
 
-				<h3 align="center">Taxa de Inscrição</h3><br>
+				<h3>Taxa de Inscrição</h3><br>
 
 			</div>
 		</div>
@@ -129,33 +135,35 @@
 					</h5>
 					<div class="card-block">
 
-						<p class="lead">
-							Para os cursos de <span style="color:#62b790">20h</span>:
+						<p class="card-text">
+							<p class="lead" style="color:#62b790">
+								Para os cursos de <span >40h</span>:
+							</p>
+
+							<ul>
+								<li>
+									Profissional - R$ 1200,00
+								</li>
+								<li>
+									Estudantes - R$ 750,00
+								</li>
+							</ul>
+						</p>
+
+						<p class="lead" style="color:#62b790">
+							Para os cursos de <span >20h</span>:
 						</p>
 
 
 						<ul>
 							<li>
-								Profissionais - R$600,00
+								Profissionais - R$ 600,00
 							</li>
 							<li>
-								Estudantes - R$375,00
+								Estudantes - R$ 375,00
 							</li>
 						</ul>
 
-
-						<p class="card-text">
-							<p class="lead">Para os cursos de <span style="color:#62b790">40h</span>:</p>
-
-							<ul>
-								<li>
-									Profissional - R$1200,00
-								</li>
-								<li>
-									Estudantes - R$750,00
-								</li>
-							</ul>
-						</p>
 					</div>
 				</div>
 			</div>
@@ -166,23 +174,22 @@
 					</h5>
 					<div class="card-block">
 						
-						<p class="lead">
-							Para os cursos de <span style="color:#62b790">80h</span>:
+						<p class="lead" style="color:#62b790">
+							Para os cursos de <span >80h</span>:
 						</p>
 
 
-						Sensoriamento Remoto: Aprendizagem Continuada <br><br>	
+						Sensoriamento Remoto: Aprendizagem Continuada <br>	
 
 						<ul>
-							<li>Graduado - R$1000,00</li>
-							<li>Em  Graduação - 500,00</li>
+							<li>Graduado - R$ 1000,00</li>
+							<li>Em  Graduação - R$ 500,00</li>
+							<small>Outras opções de pagamento para esse curso aqui</small><br>
 						</ul>
 
-						<small>Outras opções de pagamento para esse curso aqui</small><br><br>
 
-
-						<p class="lead">
-							Para os cursos de <span style="color:#62b790">40h</span>:
+						<p class="lead" style="color:#62b790">
+							Para os cursos de <span>40h</span>:
 						</p>
 
 						GEOBIA: Análise de Imagens Baseada em Objetos Geográficos
@@ -220,19 +227,19 @@
 		<div class="row">
 
 			<div class="col-md-12">
-	
+
 				<form class="form-inline">
 					<label class="my-1 mr-2" for="inlineFormCustomSelectPref">Selecione o seu curso aqui</label><hr>
 					<select class="custom-select my-1 mr-sm-6" id="inlineFormCustomSelectPref">
-					
+
 						<option selected></option>
 						<option>Análise Espacial de Dados Geográficos</option>
-	                  	<option>Banco de Dados Geográficos</option>
-	                  	<option>Processamento Digital de Imagens</option>
-	                  	<option>Plataforma de Monitoramento Ambiental TerraMA2</option>
-	                  	<option>Introdução ao TerraView</option>
-	                  	<option>Sensoriamento Remoto (Online)</option>
-	                  	<option>GEOBIA (Online)</option>
+						<option>Banco de Dados Geográficos</option>
+						<option>Processamento Digital de Imagens</option>
+						<option>Plataforma de Monitoramento Ambiental TerraMA2</option>
+						<option>Introdução ao TerraView</option>
+						<option>Sensoriamento Remoto (Online)</option>
+						<option>GEOBIA (Online)</option>
 					</select>
 
 					<div class="custom-control custom-checkbox my-1 mr-sm-2">
@@ -251,8 +258,8 @@
 	</div>
 
 
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/scripts.js"></script>
-	</body>
-	</html>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
