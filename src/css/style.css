@@ -1,0 +1,84 @@
+# Empty CSS file for your own CSS
+
+
+
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-book {
+  color: #62b790;
+  font-size: 40px;
+
+}
+
+.lnr-users{
+	color: #62b790;
+	font-size: 40px;
+}
+
+.lnr-laptop{
+	color:#62b790;
+	font-size: 40px;
+}
+
+
+.lnr-layers{
+	color: #62b790;
+	font-size: 40px;
+}
+
+
+/* 
+=======
+links 
+======= 
+*/
+
+a:link { 
+	color:#62b790; text-decoration: none;
+}
+	
+a:hover { 
+	color:#026634; text-decoration: underline;
+}
+	
+a:visited { 
+	color:#026610 ;
+}
+
+
+/* 
+==============================
+Título de destaque nas páginas  
+==============================
+*/
+
+.section-header {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-header .section-title {
+    font-size: 34px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333;
+    position: relative;
+}
+
+.section-header .lines {
+    margin: auto;
+    width: 70px;
+    position: relative;
+    border-top: 2px solid #61D2B4;
+    margin-top: 15px;
+}
+
+
