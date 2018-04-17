@@ -86,7 +86,7 @@
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 				<li class="breadcrumb-item"><a href="cursos.html">Cursos Disponíveis</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Processamento de Imagens</li>
+				<li class="breadcrumb-item active" aria-current="page">Introdução ao TerraView (Geração 5)</li>
 			</ol>
 		</nav>
 
@@ -95,54 +95,132 @@
 			<div class="col-md-12">
 
 				<div class="section-header">          
-					<h2 class="section-title">Processamento de Imagens</h2>
+					<h2 class="section-title">Introdução ao TerraView (Geração 5)</h2>
 					<hr class="lines">
 					<p class="section-subtitle"></p>
 				</div>
 
-				<p class="lead" align="center">
-					Uma introdução às técnicas de processamento digital de imagens de sensores remotos
-				</p><br>
-
 
 				<h3>Objetivo</h3>
 
-				<p>Este curso apresenta as principais técnicas de processamento usadas para manipulação de imagens digitais com o objetivo de corrigir distorções ou extrair informações das imagens.</p>
+				<p>Dar ao usuário condições de operação do TerraView.</p>
+
+				<h3>Pré-requisito</h3>
+
+				<p>
+					Para melhor aproveitamento desse curso, incluímos como pré-requisitos conhecimentos teóricos ou práticos no campo de geoprocessamento (tipos de mapas, representações, cartografia básica e funções básicas de um SIG). Não haverá exigências quanto estes pré-requisitos, portanto, se necessário acesse as referências abaixo para uma leitura pré-curso.
+
+					<ul>
+						<li><a href="http://www.selperbrasil.org.br/cursos/spring/Geo_conceitos.pdf" target="_blank">Geoprocessamento</a> e <a href="http://www.selperbrasil.org.br/cursos/spring/Geo_cartografia.pdf" target="_blank">Cartografia</a></li>
+						<li><a href="http://www.selperbrasil.org.br/cursos/spring/SenRemoto_intro.pdf" target="_blank">Sensoriamento Remoto</a></li>
+					</ul>
+
+					*Leituras adicionais veja livro on-line de <a href="http://www.dpi.inpe.br/gilberto/livro/introd/" target="_blank">Ciência da Geoinformação</a>.
+				</p>
 
 
 				<h3>Destaques</h3>
 
-				<p>Fundamenção teórica e prática das principais técnicas de Processamento Digital de Imagens aplicadas à área de sensoriamento remoto.</p>
+				<p>Através de exemplos práticos de manipulação e análise de dados geográficos, o aluno utilizará maioria das funções oferecidas pelo software.</p>
 
 				<h3>A quem se destina</h3>
 
-				<p>Este curso destina-se a profissionais interessados na aplicação de técnicas de Processamento Digital de Imagens para solução de problemas na área de sensoriamento remoto.</p>
+				<p>Profissionais das áreas de recursos naturais (cartografia, geografia, geologia, agronomia, floresta, ecologia etc.) e técnicos que necessitem utilizar o sistema para tratar dados espaciais.</p><br>
 
 				<h3>Conteúdo do Curso</h3>
 
+				<h5>(1) Introdução ao TerraView</h5>
+
 				<p>
-
-
 					<ul>
-						<li>Definições, estágios de processamento envolvidos em PDI e aplicações Fundamentos: processo de formação de imagens de sensores remotos</li>
-						<li>Conceitos: resolução espacial, espectral e radiométrica, imagem monocromática, imagem multiespectral</li>
-						<li>Estatísticas de uma imagem: média, variância, covariância, histograma</li>
-						<li>Técnica de pré-processamento: correções radiométricas e geométricas, registro de imagens</li>
-						<li>Realce de contraste: manipulação de histogramas, filtragem espacial (linear e não-linear), filtros morfológicos</li>
-						<li>Realce de cores (IHS)</li>
-						<li>Transformações multiespectrais: operações aritméticas e componentes principais</li>
-						<li>Segmentação (crescimento de regiões e detecção de bordas)</li>
-						<li>Classificação: ISOSEG (por regiões), máxima-verossimilhança (MAXVER), distância euclidiana</li>
+						<li>Sobre o TerraView</li>
+						<li>Modelagem de Dados - Projetos</li>
+						<li>Principais Ferramentas</li>
 					</ul>
+				</p>
 
-					<h3>Material Didático</h3>
-					
+				<hr>
+
+				<h5>(2) Entrada de Dados</h5>
+
+				<p>
 					<ul>
-						<li>Apostila impressa para os exercícios práticos;</li>
-						<li>DVD com o material didático em PDF, os bancos de dados que serão manipulados no curso e a versão atual do SPRING</li>
-
-						<b>Observação:</b> Pode haver sobreposição de conteúdo entre os cursos por não haver pré-requisito para realizá-los.
+						<li>Acesso a dados vetoriais</li>
+						<li>Acesso a tados tabulares externas com e sem geometria</li>
+						<li>Acesso a dados matriciais</li>
+						<li>Acesso e intercâmbio de dados geográficos no banco PostgreSQL + PostGIS</li>
+						<li>Propriedades das camadas</li>
 					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(3) Consultas de Objetos e Análises Básicas</h5>
+
+				<p>
+					<ul>
+						<li>Consulta por Atributos</li>
+						<li>Consulta Espacial</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(4) Operações Geográficas</h5>
+
+				<p>
+					<ul>
+						<li>Dissolve</li>
+						<li>Merge</li>
+						<li>Intersecção</li>
+						<li>Diferença</li>
+						<li>União</li>
+						<li>Criação de Buffers</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(5) Edição Vetorial</h5>
+
+				<p>
+					<ul>
+						<li>Ferramentas de Edição</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(6) Análise Espacial</h5>
+
+				<p>
+					<ul>
+						<li>Mapa de Kernel</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(7) Processamento Digital de Imagens</h5>
+
+				<p>
+					<ul>
+						<li>Fundamentos de Sensoriamento Remoto</li>
+						<li>Contraste</li>
+						<li>Filtragem</li>
+						<li>Operações Artmética</li>
+					</ul>
+				</p>
+
+
+				<h3>Material Didático</h3>
+
+				<ul>
+					<li>Apostila impressa para os exercícios práticos;</li>
+					<li>DVD com o material didático em PDF, os bancos de dados que serão manipulados no curso e a versão atual do SPRING.</li>
+
+					<b>Observação:</b> Pode haver sobreposição de conteúdo entre os cursos por não haver pré-requisito para realizá-los.
+				</ul>
 
 				</div>
 			</div><br>
@@ -154,8 +232,8 @@
 				<div class="col-md-10">
 
 					<h4>Certificado</h4>
-					<p>30 dias após o curso o aluno recebe o certificado da SELPER.</p>					
-
+					<p>30 dias após o curso o aluno recebe o certificado da SELPER.</p>
+					
 				</div>
 			</div><br><br>
 

@@ -86,7 +86,7 @@
 			<ol class="breadcrumb">
 				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
 				<li class="breadcrumb-item"><a href="cursos.html">Cursos Disponíveis</a></li>
-				<li class="breadcrumb-item active" aria-current="page">Processamento de Imagens</li>
+				<li class="breadcrumb-item active" aria-current="page">Banco de Dados Geográficos</li>
 			</ol>
 		</nav>
 
@@ -95,54 +95,143 @@
 			<div class="col-md-12">
 
 				<div class="section-header">          
-					<h2 class="section-title">Processamento de Imagens</h2>
+					<h2 class="section-title">Banco de Dados Geográficos</h2>
 					<hr class="lines">
 					<p class="section-subtitle"></p>
 				</div>
 
-				<p class="lead" align="center">
-					Uma introdução às técnicas de processamento digital de imagens de sensores remotos
-				</p><br>
-
-
 				<h3>Objetivo</h3>
 
-				<p>Este curso apresenta as principais técnicas de processamento usadas para manipulação de imagens digitais com o objetivo de corrigir distorções ou extrair informações das imagens.</p>
+				<p>Apresentar conceitos básicos sobre Banco de Dados, com seus diferentes modelos e arquiteturas, incluindo aplicações em Sistema de Informações Geográficas.</p>
 
 
 				<h3>Destaques</h3>
 
-				<p>Fundamenção teórica e prática das principais técnicas de Processamento Digital de Imagens aplicadas à área de sensoriamento remoto.</p>
+				<p>Modelagem de Banco de Dados Geográficos e consulta espacial.</p>
 
 				<h3>A quem se destina</h3>
 
-				<p>Este curso destina-se a profissionais interessados na aplicação de técnicas de Processamento Digital de Imagens para solução de problemas na área de sensoriamento remoto.</p>
+				<p>Usuários de Geoprocessamento, projetistas de aplicações que usam Banco de Dados e programadores de aplicações.</p>
 
-				<h3>Conteúdo do Curso</h3>
+				<h3>Conteúdo do Curso (Teórico)</h3><br>
+
+				<h5>(1) Sistemas de Bancos de Dados</h5>
 
 				<p>
-
-
 					<ul>
-						<li>Definições, estágios de processamento envolvidos em PDI e aplicações Fundamentos: processo de formação de imagens de sensores remotos</li>
-						<li>Conceitos: resolução espacial, espectral e radiométrica, imagem monocromática, imagem multiespectral</li>
-						<li>Estatísticas de uma imagem: média, variância, covariância, histograma</li>
-						<li>Técnica de pré-processamento: correções radiométricas e geométricas, registro de imagens</li>
-						<li>Realce de contraste: manipulação de histogramas, filtragem espacial (linear e não-linear), filtros morfológicos</li>
-						<li>Realce de cores (IHS)</li>
-						<li>Transformações multiespectrais: operações aritméticas e componentes principais</li>
-						<li>Segmentação (crescimento de regiões e detecção de bordas)</li>
-						<li>Classificação: ISOSEG (por regiões), máxima-verossimilhança (MAXVER), distância euclidiana</li>
+						<li>
+							Introdução a Sistemas de Bancos de Dados
+						</li>
+						<li>
+							Introdução a SQL
+						</li>
+						<li>
+							PostgreSQL
+						</li>
 					</ul>
+				</p>
 
-					<h3>Material Didático</h3>
-					
+				<hr>
+
+				<h5>(2) Modelo de Dados em Geoprocessamento</h5>
+
+				<p>
 					<ul>
-						<li>Apostila impressa para os exercícios práticos;</li>
-						<li>DVD com o material didático em PDF, os bancos de dados que serão manipulados no curso e a versão atual do SPRING</li>
-
-						<b>Observação:</b> Pode haver sobreposição de conteúdo entre os cursos por não haver pré-requisito para realizá-los.
+						<li>
+							O que é um SIG e sua estrutura
+						</li>
+						<li>
+							Quatro universos da representação do dado geográfico,
+						</li>
+						<li>
+							Noções de cartografia,
+						</li>
+						<li>
+							Arquitetura de BDGeográficos (Dual e Integrada).
+						</li>
 					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(3) Modelagem de Banco de Dados Geográficos</h5>
+
+				<p>
+					<ul>
+						<li>
+							OMT-G
+						</li>
+						<li>
+							UML GeoFrame
+						</li>
+						<li>
+							Ferramenta CASE
+						</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(4) Sistemas de Bancos de Dados Espacial</h5>
+
+				<p>
+					<ul>
+						<li>
+							Introdução a Sistemas de Bancos de Dados Espacial
+						</li>
+						<li>
+							PostGIS
+						</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(5) Web Services Geográficos</h5>
+
+				<p>
+					<ul>
+						<li>
+							Padrões OGC Web Services (OWS)
+						</li>
+						<li>
+							Web Map Service (WMS)
+						</li>
+						<li>
+							Web Feature Service (WFS)
+						</li>
+						<li>
+							Simple Features Specification For SQL (SFS-SQL)
+						</li>
+					</ul>
+				</p>
+
+				<hr>
+
+				<h5>(6) Métodos de Indexação Espacial e Operadores Topológicos - SFS</h5>
+
+				<p>
+					<ul>
+						<li>
+							Exemplos de aplicações em BDG (Projeto PROARCO, DETER, SIGMUN, SISMADEN)
+						</li>
+					</ul>
+				</p><br><br>
+
+
+				<h3>Conteúdo do Curso (Prático)</h3><br>
+
+				<p>Os exercícios práticos serão apresentados nos sistemas <mark>TerraView</mark>, <mark>SPRING</mark>, <mark>Gaia</mark>, <mark>PostgreSQL</mark>, <mark>ACCESS</mark>, <mark>GeoSERVER</mark> e <mark>uDig</mark>.</p><br>
+
+
+				<h3>Material Didático</h3>
+
+				<ul>
+					<li>Apostila impressa para os exercícios práticos;</li>
+					<li>DVD com o material didático em PDF, os bancos de dados que serão manipulados no curso e a versão atual do SPRING.</li>
+
+					<b>Observação:</b> Pode haver sobreposição de conteúdo entre os cursos por não haver pré-requisito para realizá-los.
+				</ul>
 
 				</div>
 			</div><br>
@@ -154,7 +243,7 @@
 				<div class="col-md-10">
 
 					<h4>Certificado</h4>
-					<p>30 dias após o curso o aluno recebe o certificado da SELPER.</p>					
+					<p>30 dias após o curso o aluno recebe o certificado da SELPER.</p>
 
 				</div>
 			</div><br><br>
