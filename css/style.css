@@ -103,6 +103,16 @@ páginas dos cursos
 }
 
 
+/*
+=======
+index
+=======
+*/
+.lnr-lock{
+  color: #62b790;
+}
+
+
 /* 
 =======
 links 
@@ -150,7 +160,6 @@ Título de destaque nas páginas
     border-top: 2px solid #61D2B4;
     margin-top: 15px;
 }
-
 
 
 /* 
