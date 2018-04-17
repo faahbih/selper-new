@@ -17,17 +17,17 @@ icons
 
 .lnr-book {
   color: #62b790;
-  font-size: 40px;
+  font-size: 70px;
 }
 
 .lnr-users{
 	color: #62b790;
-	font-size: 40px;
+	font-size: 70px;
 }
 
 .lnr-laptop{
 	color:#62b790;
-	font-size: 40px;
+	font-size: 70px;
 }
 
 .lnr-layers{
@@ -76,6 +76,20 @@ icons
   padding: 50px;
 }
 
+/*
+================
+página de hoteis 
+================
+*/
+.lnr-map{
+  color:#62b790;
+  font-size: 60px;
+}
+
+.lnr-bus{
+  color:#62b790;
+  font-size: 60px;
+}
 /* 
 ==================
 páginas dos cursos
