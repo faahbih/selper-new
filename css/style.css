@@ -3,7 +3,7 @@
 
 /*
 ======
-icons 
+icones 
 ======
 */
 
@@ -14,6 +14,22 @@ icons
   height: 1em;
   vertical-align: -0.05em;
 }
+
+/*
+===========
+ícone login
+===========
+*/
+
+.lnr-lock{
+  color: #62b790;
+}
+
+/*
+=============
+icone da home 
+=============
+*/
 
 .lnr-book {
   color: #62b790;
@@ -46,7 +62,12 @@ icons
 }
 
 
-/* normas e procedimentos */
+/*
+====================== 
+normas e procedimentos 
+======================
+*/
+
 .lnr-user{
   color:#62b790;
   font-size: 40px;
@@ -81,6 +102,7 @@ icons
 página de hoteis 
 ================
 */
+
 .lnr-map{
   color:#62b790;
   font-size: 60px;
@@ -90,6 +112,7 @@ página de hoteis
   color:#62b790;
   font-size: 60px;
 }
+
 /* 
 ==================
 páginas dos cursos
@@ -102,15 +125,6 @@ páginas dos cursos
   padding: 40px;
 }
 
-
-/*
-=======
-index
-=======
-*/
-.lnr-lock{
-  color: #62b790;
-}
 
 
 /* 
